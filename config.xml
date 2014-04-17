@@ -4,8 +4,6 @@
         id          = "com.vispo.accel1" 
         version     = "1.0.0" >
 
-    <!-- versionCode is optional and Android only -->
-
     <name>PhoneGap Accelerometer Example</name>
 
     <description>
@@ -15,5 +13,8 @@
     <author href="http://vispo.com" email="jimandrews100@gmail.com">
         Hardeep Shoker 
     </author>
+    
+    <!-- accelerometer -->
+    <gap:plugin name="org.apache.cordova.device-motion" />
 
 </widget>
