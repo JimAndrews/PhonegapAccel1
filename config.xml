@@ -16,5 +16,6 @@
     
     <!-- accelerometer -->
     <gap:plugin name="org.apache.cordova.device-motion" />
+    <icon src="icon.png" />
 
 </widget>
